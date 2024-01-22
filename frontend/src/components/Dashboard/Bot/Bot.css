@@ -1,0 +1,100 @@
+.chat-bot-help-container {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-radius: 25px;
+  width: 96%;
+  height: 65vh;
+  overflow-y: auto;
+}
+
+.chats{
+    padding-right: 2em;
+}
+
+.chat-bot-help-container {
+    overflow-y: auto; 
+}
+
+.chat-bot-help-container {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.chat-bot-help-container::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.chat-bot-help-container::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.angle-icon {
+  position: absolute;
+  font-size: xx-large;
+  margin-top: 250px;
+  margin-left: -40px;
+  cursor: pointer;
+}
+
+.angle-icon:hover {
+    color: #de1ea7;
+}
+
+.user-query {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: #de1ea7;
+}
+
+.user-query .user {
+  margin-top: 12px;
+  font-size: xx-large;
+}
+
+.bot-response {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  border-radius: 25px;
+}
+
+.bot-response .robot {
+  margin-top: 30px;
+  font-size: xx-large;
+  color: #de1ea7;
+}
+
+.bot-response p {
+  width: 100%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 93%;
+  background-color: #fbf9fe;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 95px;
+  position: sticky;
+}
+
+.search-bar input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #fbf9fe;
+}
+
+.search-bar .search-icon {
+  font-size: larger;
+  color: #de1ea7;
+  margin-right: 40px;
+}

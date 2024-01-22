@@ -1,0 +1,52 @@
+.signin-container {
+    margin-left: 32%;
+    margin-top: 20%;
+}
+
+.signin-container .logo {
+    position: absolute;
+    margin-top: -12em;
+    margin-left: 8em;
+}
+
+.google-sign-in {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: white;
+    width: 45%;
+    padding: 15px;
+    padding-left: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.google-icon {
+    margin-top: 5%;
+    font-size: x-large;
+    margin-left: 3em;
+}
+
+.google-sign-in h3 {
+    color: #8B8996;
+}
+
+.google-sign-in h3:hover {
+    color: #DE1EA7;
+}
+
+.angle-right {
+    margin-top: 6.2%;
+    margin-left: 2em;
+    color: #DE1EA7;
+}
+
+.angle-right {
+    color: #8B8996;
+}
+.angle-right:hover {
+    transform: translateX(1);
+    cursor: pointer;
+    color: #DE1EA7;
+}
