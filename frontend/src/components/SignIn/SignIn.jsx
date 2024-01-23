@@ -20,7 +20,7 @@ const SignIn = () => {
             </div>
             <div className="google-sign-in" onClick={() => handleSignInClick()}>
                 <FcGoogle className="google-icon"/>
-                <h3>Sign in with Google</h3>
+                <h3>Sign in with Google\</h3>
                 <FaAngleDoubleRight className="angle-right"/>
             </div>
 
