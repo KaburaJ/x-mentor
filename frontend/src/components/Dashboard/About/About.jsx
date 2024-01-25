@@ -47,10 +47,8 @@ export const AboutPage = () => {
             <img src={logo} onClick={handleLandingPageNavigation} alt='VirtualCare'></img>
             </div>
             <div className="App-info">
-            <p>We cover a broad range of specialisms. From diabetes, ostomy, continence and respiratory care, to medical nutrition, wound care, infusion therapy and medical and facility devices.
-              Improving experiences of patients, providers and caregivers is key.
-              We take care of their daily needs. From medical devices and supplementary care to education and 24-hour support.
-              We deliver products directly to the home as well as to hospitals, nursing homes and other healthcare institutions.</p>
+            <p>Here at X Mentor we aim at giving you and helping you give the best experience to other Twitter or X users. 
+              Join us to get expert curated predictions as well as tweets' classification. We help you help others!</p>
             </div>
         </div>
     )
