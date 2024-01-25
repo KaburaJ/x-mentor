@@ -44,7 +44,7 @@ const DashBoardContent = () => {
                 setPlt8(htmlModule8.default);
                 setLoading(false);
             } catch (e) {
-                console.error("Error loading plots:", error);
+                console.error("Error loading plots:", e);
                 setLoading(false);
             }
 
