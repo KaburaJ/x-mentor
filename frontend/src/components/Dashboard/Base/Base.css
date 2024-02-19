@@ -1,0 +1,71 @@
+.base-container {
+    padding: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    margin-right: 20px;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #f1b3da;
+    opacity: 10;
+  }
+  
+  button {
+    padding: 8px 15px;
+    height: 55px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #CB6CE6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .filter-options {
+    margin-bottom: 20px;
+  }
+  
+  .tweet-list {
+    border-radius: 15px;
+  }
+  .tweet {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width:70vw;
+    /* height: 35vh; */
+    border-radius: 5px;
+  }
+  
+  .tweet-content {
+    padding: 10px 10px;
+  }
+  
+  .author {
+    font-weight: bold;
+  }
+  
+  .positive {
+    background-color: #d4edda;
+  }
+  
+  .negative {
+    background-color: #f8d7da;
+  }
+  
+  .neutral {
+    background-color: #cce5ff;
+  }
+  

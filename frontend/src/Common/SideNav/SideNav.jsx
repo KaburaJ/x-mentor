@@ -1,21 +1,29 @@
+// SideNav.js
 import React from "react";
-import { RxDashboard } from "react-icons/rx";
+import { RxDashboard, RxHome } from "react-icons/rx";
 import { FaHandsHelping, FaUser } from "react-icons/fa";
 import { FaRobot } from "react-icons/fa";
 import { FcAbout } from "react-icons/fc";
 import '../SideNav/SideNav.css'
-import logo from '../../Common/images/x-ment-removebg-preview.png'
+import logo from '../../Common/images/lg.PNG'
 
-const SideNav = ({ onSelectItem, selectedNavItem }) => {
+const SideNav = ({ onSelectItem, selectedNavItem, userName }) => {
     const handleItemClick = (item) => {
         onSelectItem(item)
     }
     return (
         <div className="side-nav">
             <div className="logo">
-                <img src={logo}></img>
+                <img src={logo} style={{borderRadius:'50%'}}></img>
             </div>
             <div className="nav-list">
+                <div
+                    className={`list-item ${selectedNavItem === "Home" ? "selected" : ""}`}
+                    onClick={() => handleItemClick("Home")}
+                >
+                    <RxHome className="dashboard-logo" />
+                    <h3>Home</h3>
+                </div>
                 <div
                     className={`list-item ${selectedNavItem === "Dashboard" ? "selected" : ""}`}
                     onClick={() => handleItemClick("Dashboard")}
@@ -40,8 +48,9 @@ const SideNav = ({ onSelectItem, selectedNavItem }) => {
                 </div>
             </div>
             <div className="profile-details">
-                <div className="user-details"><FaUser className="user" />
-                    <h3>@username</h3>
+                <div className="user-details">
+                    <FaUser className="user" />
+                    <h3>{userName}</h3>
                 </div>
                 <button>Log Out</button>
             </div>
@@ -49,4 +58,4 @@ const SideNav = ({ onSelectItem, selectedNavItem }) => {
     )
 }
 
-export default SideNav
+export default SideNav;

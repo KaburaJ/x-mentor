@@ -1,4 +1,5 @@
 import React from "react";
+// import './navbar.css'
 import { FaBell, FaFacebookMessenger, FaSearch, FaUser } from "react-icons/fa";
 
 
@@ -8,7 +9,7 @@ const Navbar = ({title}) => {
                     <h3>{title}</h3>
                     <div className="search">
                         <FaSearch className="search-icon" />
-                        <input type="text" placeholder="Search everything..."></input>
+                        {/* <input type="text" placeholder="Search everything..."></input> */}
                     </div>
                     <div className="notification-icons">
                         <FaBell />
